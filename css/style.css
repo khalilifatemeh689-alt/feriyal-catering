@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family:tahoma;
+    background:#ffffff;
+
+}
+
+.hero{
+
+    width:100%;
+
+
+}
+
+.hero img{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+    
+}
