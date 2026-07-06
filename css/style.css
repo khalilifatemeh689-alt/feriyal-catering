@@ -28,3 +28,110 @@ body{
 
     
 }
+
+.menu-section{
+
+    width:100%;
+    max-width:1200px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+}
+
+.days{
+
+    display:grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap:20px;
+
+    margin-bottom:35px;
+
+}
+
+.days button{
+
+    background:#174c38;
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:28px 15px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+.days button:hover{
+
+    background:#21674b;
+
+    transform:translateY(-5px);
+
+}
+
+.menu-box{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+    min-height:250px;
+}
+
+.menu-box h2{
+
+    margin-bottom:15px;
+
+    color:#174c38;
+
+    font-size:32px;
+
+}
+
+.menu-box p{
+
+    color:#666;
+
+    font-size:20px;
+
+}
+
+@media(max-width:768px){
+
+    .days{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .days button{
+
+       font-size:20px;
+
+       padding:22px 10px;
+
+    }
+
+    .menu-box{
+
+        padding:25px;
+
+    }
+}
