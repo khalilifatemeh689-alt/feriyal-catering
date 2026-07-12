@@ -135,3 +135,208 @@ body{
 
     }
 }
+
+.price{
+
+    float:left;
+
+    color:#b30000;
+
+    font-weight:bold;
+    
+}
+
+.content{
+
+    max-width: 1200px;
+
+    margin:60px auto;
+
+    padding: 20px;
+
+}
+
+.content h2{
+
+    text-align: center;
+
+    color:#174c38;
+
+    font-size: 38px;
+
+    margin-bottom: 40px;
+
+}
+
+.content-container{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+}
+
+.content-card{
+
+    width: 260px;
+
+    height: 160px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    color:#174c38;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.content-card:hover{
+
+    transform: translateY(-10px);
+
+    background: #174c38;
+
+    color:white;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+}
+
+.content-card h3{
+
+    font-size: 50px;
+
+    margin-bottom: 15px;
+
+}
+
+.content-card p{
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+.footer{
+
+    background: #174c38;
+
+    color: rgb(223, 193, 193);
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    margin-top: 80px;
+
+}
+
+.footer h3{
+
+    color: white;
+
+    font-size: 34px;
+
+    margin-bottom: 15px;
+
+}
+
+.footer-text{
+
+    color: beige;
+
+    font-size: 20px;
+
+    margin-bottom: 12px;
+
+}
+
+.footer small{
+
+    color: #d9d9d9;
+
+    font-size: 15px;
+
+}
+
+.footer-info{
+
+    color: #e8dcc2;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 60px;
+
+    flex-wrap: wrap;
+
+    display: flex;
+
+    margin: 35px 0;
+
+    font-size: 18px;
+
+}
+
+.footer-info span{
+
+    opacity:.8;
+}
+
+.content-card i{
+
+    font-size: 55px;
+
+    color: #174c38;
+
+    margin-bottom: 20px;
+
+}
+
+.content-card h3{
+
+    font-size: 30px;
+
+    color: #174c38;
+
+    margin-bottom: 15px;
+
+}
+
+.content-card:hover i{
+
+    color: white;
+
+}
+
+.content-card:hover h3{
+
+    color: #d8d8d8;
+
+}
+
+.content-card:hover span{
+
+    color:#d8d8d8;
+    
+}
